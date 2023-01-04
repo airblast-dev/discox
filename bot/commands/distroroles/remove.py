@@ -34,3 +34,4 @@ class cmd(Command):
         embed = Embed(
             title="Distro", description=f"**`{name}` has been removed from the `{role.name}` distro role.**")
         await message.channel.send(embed=embed)
+        
